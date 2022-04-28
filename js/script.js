@@ -9,3 +9,6 @@ document.getElementById('login-submit').addEventListener('click', function(){
         window.location.href ="banking.html";
     }
 })
+document.getElementById('deposit-button').addEventListener('click', function(){
+    console.log("deposit button clicked");
+})
